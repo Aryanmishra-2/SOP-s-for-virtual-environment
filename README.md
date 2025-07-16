@@ -1,10 +1,20 @@
 ## Python Virtual Environment - SOP (Ubuntu)
 
+---
 ## Author Information
 
 | Created | Reviewer |
 |---------|----------|
  Aryan mishra | Siddharth
+
+---
+ ## Introduction
+Python virtual environments allow developers to create isolated environments for their projects. Each virtual environment has its own Python binaries and can have its own independent set of installed packages, avoiding conflicts between different projects.
+
+This is especially useful when:
+- You are working on multiple projects that require different versions of libraries.
+- You want to maintain a clean global Python environment.
+- You need to test or deploy in a controlled, reproducible setup.
 
  --- 
 ## Objective

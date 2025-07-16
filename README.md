@@ -4,9 +4,9 @@
 
 | Created | Reviewer |
 |---------|----------|
-
----
  Aryan mishra | Siddharth
+
+ --- 
 ## Objective
 This SOP provides a step-by-step guide to **create, activate, use, freeze, deactivate, delete**, and **troubleshoot** Python virtual environments on Ubuntu. It ensures your projects run in isolated environments, avoiding conflicts and improving reproducibility.
 
@@ -47,3 +47,70 @@ python3 -m venv venv
 ```
 - This creates a directory venv/ containing an isolated environment.
 ---
+## Activating the Virtual Environment
+| Shell Type          |	Command      |
+|---------------------| -------------|
+| Bash/Zsh	           | source venv/bin/activate |
+| Fish Shell	         | source venv/bin/activate.fish |
+| C Shell	            | source venv/bin/activate.csh |
+
+---
+## Installing Packages
+
+- Install required packages using pip
+
+```bash
+pip install <package_name>
+```
+###  Example
+```bash
+pip install requests flask
+```
+---
+## Freezing Requirements
+
+- To generate a list of installed packages
+
+```bash
+pip freeze > requirements.txt  
+```
+### Example
+```bash
+pip install -r requirements.txt
+```
+---
+## Deactivating the Environment
+
+- Exit the virtual environment
+```bash
+deactivate
+```
+## Deleting a Virtual Environment
+-  delete the directory
+```bash
+rm -rf venv
+```
+- Ensure you're not inside the virtual environment before deleting.
+
+## Troubleshooting
+|  Problem	          |   Cause / Solution         |
+|--------------------|----------------------------|
+| command not found: | python3	Python not installed: sudo apt install python3
+| No module named venv	Install venv: |  sudo apt install python3-venv
+| Permission denied	 | Check file permissions / avoid using sudo unnecessarily
+| Activation not working	Use correct command: |  source venv/bin/activate
+| pip not found in venv	Recreate venv or run: | python3 -m ensurepip
+| Can't install packages	Install build tools: | sudo apt install build-essential python3-dev
+
+## Best Practices
+- Use .venv or venv as a convention for naming environments.
+
+- Add the environment directory to .gitignore.
+
+- Always track dependencies using requirements.txt.
+
+- Use per-project virtual environments.
+
+- Automate setup via Makefile or setup.sh
+
+

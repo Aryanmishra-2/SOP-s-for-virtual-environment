@@ -7,24 +7,10 @@
 |---------|--------------|-------------|-------------|-------------|
  Aryan mishra | Siddharth | Ram Ratan  | Gaurav Singla | Mahesh Kumar
 
-
-
----
- ## Introduction
-Python virtual environments allow developers to create isolated environments for their projects. Each virtual environment has its own Python binaries and can have its own independent set of installed packages, avoiding conflicts between different projects.
-
-This is especially useful when:
-- You are working on multiple projects that require different versions of libraries.
-- You want to maintain a clean global Python environment.
-- You need to test or deploy in a controlled, reproducible setup.
-
- --- 
-## Objective
-This SOP provides a step-by-step guide to **create, activate, use, freeze, deactivate, delete**, and **troubleshoot** Python virtual environments on Ubuntu. It ensures your projects run in isolated environments, avoiding conflicts and improving reproducibility.
-
 ---
 
 ##  Table of Contents
+- [Introduction](#-Introduction)
 - [Prerequisites](#-prerequisites)
 - [Creating a Virtual Environment](#-creating-a-virtual-environment)
 - [Activating the Virtual Environment](#-activating-the-virtual-environment)
@@ -37,6 +23,14 @@ This SOP provides a step-by-step guide to **create, activate, use, freeze, deact
 - [Example Folder Structure](#-example-folder-structure)
 
 ---
+ ## Introduction
+Python virtual environments allow developers to create isolated environments for their projects. Each virtual environment has its own Python binaries and can have its own independent set of installed packages, avoiding conflicts between different projects.
+
+step-by-step guide to **create, activate, use, freeze, deactivate, delete**, and **troubleshoot** Python virtual environments on Ubuntu.
+
+---
+
+
 
 ##  Prerequisites
 
@@ -114,15 +108,15 @@ rm -rf venv
 | pip not found in venv	Recreate venv or run: | python3 -m ensurepip
 | Can't install packages	Install build tools: | sudo apt install build-essential python3-dev
 
+---
 ## Best Practices
-- Use .venv or venv as a convention for naming environments.
 
-- Add the environment directory to .gitignore.
-
-- Always track dependencies using requirements.txt.
-
-- Use per-project virtual environments.
-
-- Automate setup via Makefile or setup.sh
+| no  | Practice                                                                |
+|-----|-------------------------------------------------------------------------|
+| 1.  | Use `.venv` or `venv` as a convention for naming environments.          |
+| 2.  | Add the environment directory to `.gitignore`.                          |
+| 3.  | Always track dependencies using `requirements.txt`.                     |
+| 4.  | Use per-project virtual environments.                                   |
+| 5.  | Automate setup via `Makefile` or `setup.sh`.                            |
 
 

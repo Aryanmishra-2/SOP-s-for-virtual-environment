@@ -7,7 +7,7 @@
 |-----------------|--------------------|------------------|-------------------|--------------------|-----------------|----------------------|-------------------|
 | Aryan mishra    |                    | V.1              |                  |        Siddharth    |  Ram Ratan      |      Gaurav Singla   |   Mahesh Kumar    |
  
- ---
+
 ---
 
 ##  Table of Contents
@@ -133,9 +133,9 @@ Python virtual environments are essential for any modern Python development work
 
 | no                                | Practice                                                                |
 |-----------------------------------|-------------------------------------------------------------------------|
-| - Python venv documentation:      |    https://docs.python.org/3/library/venv.html                          |
-| - pip official documentation:     |    https://pip.pypa.io/en/stable/                                       |
-| - virtualenv documentation:       |    https://virtualenv.pypa.io/en/latest/                                |
-| - Real Python Tutorial:           |    https://realpython.com/python-virtual-environments-a-primer/         |
-| - GeeksForGeeks Article:          |    https://www.geeksforgeeks.org/python-virtual-environment/            |
+|  Python venv documentation:      |    [Link](https://docs.python.org/3/library/venv.html)                  |
+|  pip official documentation:     |    [Link](https://pip.pypa.io/en/stable/)                               |
+|  virtualenv documentation:       |    [Link](https://virtualenv.pypa.io/en/latest/)                        |
+|  Real Python Tutorial:           |    [Link](https://realpython.com/python-virtual-environments-a-primer/) |
+|  GeeksForGeeks Article:          |    [Link](https://www.geeksforgeeks.org/python-virtual-environment/)    |
 

@@ -3,10 +3,11 @@
 ---
 ## Author Information
 
-| Created | pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
-|---------|--------------|-------------|-------------|-------------|
- Aryan mishra | Siddharth | Ram Ratan  | Gaurav Singla | Mahesh Kumar
-
+| Created         | Created on         | Version          | Last updated by   | pre Reviewer       | L0 Reviewer     | L1 Reviewer          |    L2 Reviewer    |
+|-----------------|--------------------|------------------|-------------------|--------------------|-----------------|----------------------|-------------------|
+| Aryan mishra    |                    | V.1        |                  |        Siddharth    |  Ram Ratan      |      Gaurav Singla   |   Mahesh Kumar    |
+ 
+ ---
 ---
 
 ##  Table of Contents
@@ -22,6 +23,7 @@
 - [Troubleshooting](#-troubleshooting)
 - [Best Practices](#-best-practices)
 - [Conclusion](#-Conclusion)
+- [References](#References)
 
 ---
  ## Introduction
@@ -124,4 +126,13 @@ rm -rf venv
 ## Conclusion
 
 Python virtual environments are essential for any modern Python development workflow. By isolating dependencies and tools per project, they prevent version conflicts, streamline collaboration, and improve portability. Following this SOP ensures your environment is reproducible, clean, and aligned with Python best practices.
+
+---
+
+## References
+- Python venv documentation: https://docs.python.org/3/library/venv.html
+- pip official documentation: https://pip.pypa.io/en/stable/
+- virtualenv documentation: https://virtualenv.pypa.io/en/latest/
+- Real Python Tutorial: https://realpython.com/python-virtual-environments-a-primer/
+- GeeksForGeeks Article:  https://www.geeksforgeeks.org/python-virtual-environment/
 

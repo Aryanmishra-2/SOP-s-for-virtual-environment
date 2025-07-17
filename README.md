@@ -130,9 +130,12 @@ Python virtual environments are essential for any modern Python development work
 ---
 
 ## References
-- Python venv documentation: https://docs.python.org/3/library/venv.html
-- pip official documentation: https://pip.pypa.io/en/stable/
-- virtualenv documentation: https://virtualenv.pypa.io/en/latest/
-- Real Python Tutorial: https://realpython.com/python-virtual-environments-a-primer/
-- GeeksForGeeks Article:  https://www.geeksforgeeks.org/python-virtual-environment/
+
+| no                                | Practice                                                                |
+|-----------------------------------|-------------------------------------------------------------------------|
+| - Python venv documentation:      |    https://docs.python.org/3/library/venv.html                          |
+| - pip official documentation:     |    https://pip.pypa.io/en/stable/                                       |
+| - virtualenv documentation:       |    https://virtualenv.pypa.io/en/latest/                                |
+| - Real Python Tutorial:           |    https://realpython.com/python-virtual-environments-a-primer/         |
+| - GeeksForGeeks Article:          |    https://www.geeksforgeeks.org/python-virtual-environment/            |
 

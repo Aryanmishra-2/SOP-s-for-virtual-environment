@@ -129,6 +129,12 @@ Python virtual environments are essential for any modern Python development work
 
 ---
 
+| Name          | Email                                |
+| ------------- | ------------------------------------ |
+| Aryan Mishra  | aryan.mishra@mygurukulam.co          |
+
+---
+
 ## References
 
 | Name                              | Practice                                                                |
